@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-lg-4 mx-5">
+      <div class="card">
+        <div class="card-header" style="background-color:rgb(241, 85, 85);">
+          <h1 style="color: rgb(255, 255, 255); font-family: 'Times New Roman', Times, serif;" [ngStyle]="{'font-weight':700}">
+            Solicítala 
+            <samp style="color: rgb(255, 255, 255); font-family: 'Times New Roman', Times, serif;" [ngStyle]="{'font-weight':700}"> 
+              Aqui 
+            </samp>
+          </h1>
+        </div>
+        <div class="card-body" style="background-color:rgb(255, 255, 255);">
+          <form>
+            <div class="form-group" style="border-radius: 0cap;">
+              <input type="text" class="form-controln" placeholder=" DNI" required>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-controln" placeholder=" CELULAR" required>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-controln" placeholder=" CORREO" required>
+            </div>
+            <div class="form-group mt-3">
+              <a class="nav-link" href="#" [ngStyle]="{'font-weight':500}">
+                Al dar clic en SOLICITAR declaro haber leído aquí las condiciones de tratamiento de mis datos personales y finalidades adicionales.
+              </a>
+            </div>
+            <div class="input-container">
+              <input type="checkbox" class="check-input mt-3" >
+              <label for="adicionales" class="check-label" [ngStyle]="{'font-weight':500}">
+                Autorizo el tratamiento de mis datos personales para las finalidades adicionales informadas
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Solicitar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6"></div>
+  </div>
